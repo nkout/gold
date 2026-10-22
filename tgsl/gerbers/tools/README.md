@@ -28,9 +28,10 @@ The scripts also need `pdftoppm` (poppler). Cached PDF streams, the 1200 dpi ren
 
 `parsers.py` reads the PDF content stream and the gerber and drill files. `common.py` holds the paths, the transform fit and cached copper geometry.
 
-## Expected results for try_03
+## Expected results
 
-All checks match except the hole sizes. See `../review_03/review.md`.
+- try_03: all checks match except the hole sizes. See `../review_03/review.md`.
+- try_04 (try_03 with corrected holes): every check passes. `diff_tries` shows only the 8 hole changes. Holes: 0.8 mm × 268, 1.0 mm × 66, 1.1 mm × 6, 1.3 mm × 6. Smallest annular ring 0.233 mm (BD140).
 
 ## opencode/
 
