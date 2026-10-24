@@ -15,10 +15,10 @@ Quantity,Manufacturer,Manufacturer Part Number,Description,Designator,Notes
 1,ROYALOHM,MFF04FF3303A50,"Resistor metal film 330k 1% 0.4W axial, body D1.9x3.7mm",R43,Any 0204 metal film 1% fits (body <= D2.0 x 3.7 mm)
 2,ROYALOHM,MFF04FF4703A50,"Resistor metal film 470k 1% 0.4W axial, body D1.9x3.7mm",R29 R31,Any 0204 metal film 1% fits (body <= D2.0 x 3.7 mm)
 3,ROYALOHM,MFF04FF1004A50,"Resistor metal film 1M 1% 0.4W axial, body D1.9x3.7mm",R33 R35 R54,Any 0204 metal film 1% fits (body <= D2.0 x 3.7 mm)
-1,TDK,FG18C0G1H100DNT06,Ceramic cap 10pF C0G 50V radial P=2.5mm,C7,No value on silkscreen: between LF353 and the 4K7 above it
-1,TDK,FG18C0G1H150JNT06,Ceramic cap 15pF C0G 50V radial P=2.5mm,C11,
-4,TDK,FG18C0G1H101JNT06,Ceramic cap 100pF C0G 50V radial P=2.5mm,C9 C10 C19 C22,C19/C22 can be left out with TL081
-10,TDK,FG28X7R1H104KNT06,Ceramic cap 100nF X7R 50V radial P=5mm,C26 + 9 supply bypass,
+1,TDK,FG18C0G1H100DNT00,Ceramic cap 10pF C0G 50V radial P=2.5mm,C7,No value on silkscreen: between LF353 and the 4K7 above it
+1,TDK,FG18C0G1H150JNT00,Ceramic cap 15pF C0G 50V radial P=2.5mm,C11,
+4,TDK,FG18C0G1H101JNT00,Ceramic cap 100pF C0G 50V radial P=2.5mm,C9 C10 C19 C22,C19/C22 can be left out with TL081
+10,TDK,FG28X7R1H104KNT00,Ceramic cap 100nF X7R 50V radial P=5mm,C26 + 9 supply bypass,
 1,WIMA,,Film cap polyester 15nF 100V 5% P=5mm (e.g. WIMA MKS2),C6,"Rx tuning: film, 5% preferred"
 7,WIMA,,Film cap polyester 22nF 100V P=5mm (e.g. WIMA MKS2),C2 C13 C16 C20 C23 C24 C25,C2 is Tx tuning: 5% preferred. C13/C16 have no value on silkscreen
 4,WIMA,MKS2D032201C00KSSD,"Film cap polyester 220nF 100V 10% P=5mm, 3.5x8.5x7.2mm",C1 C8 C12 C15,C1 is Tx tuning: a 5% (J) version is better
