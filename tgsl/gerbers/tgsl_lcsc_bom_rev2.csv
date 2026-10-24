@@ -1,0 +1,43 @@
+Quantity,LCSC Part Number,Manufacturer Part Number,Description,Designator
+2,,MF0S4FF3300A50,Resistor 330 ohm 1% 250mW metal film THT D1.9xL3.3mm,R52 R55
+5,,MF0S4FF1001A50,Resistor 1k 1% 250mW metal film THT D1.9xL3.3mm,R7 R27 R37 R38 R56
+4,,MF0S4FF2201A50,Resistor 2.2k 1% 250mW metal film THT D1.9xL3.3mm,R1 R11 R12 R44
+1,,MF0S4FF3301A50,Resistor 3.3k 1% 250mW metal film THT D1.9xL3.3mm,R19
+6,,MF0S4FF4701A50,Resistor 4.7k 1% 250mW metal film THT D1.9xL3.3mm,R9 R10 R13 R14 R41 R53
+1,,MF0S4FF1002A50,Resistor 10k 1% 250mW metal film THT D1.9xL3.3mm,R20
+1,,MF0S4FF1502A50,Resistor 15k 1% 250mW metal film THT D1.9xL3.3mm,R24
+2,,MF0S4FF2002A50,Resistor 20k 1% 250mW metal film THT D1.9xL3.3mm,R25 R26
+2,,MF0S4FF2402A50,Resistor 24k 1% 250mW metal film THT D1.9xL3.3mm,R2 R21
+1,,MF0S4FF2702A50,Resistor 27k 1% 250mW metal film THT D1.9xL3.3mm,R45
+4,,MF0S4FF4702A50,Resistor 47k 1% 250mW metal film THT D1.9xL3.3mm,R3 R6 R32 R34
+11,,MF0S4FF1003A50,Resistor 100k 1% 250mW metal film THT D1.9xL3.3mm,R8 R17 R23 R28 R30 R40 R42 R49 R50 R51a R51b
+1,,MF0S4FF2003A50,Resistor 200k 1% 250mW metal film THT D1.9xL3.3mm (silk says 220K; either works),R48
+3,,MF0S4FF2203A50,Resistor 220k 1% 250mW metal film THT D1.9xL3.3mm,R15 R16 R39
+1,,MF0S4FF3303A50,Resistor 330k 1% 250mW metal film THT D1.9xL3.3mm,R43
+2,,MF0S4FF4703A50,Resistor 470k 1% 250mW metal film THT D1.9xL3.3mm,R29 R31
+3,,MF0S4FF1004A50,Resistor 1M 1% 250mW metal film THT D1.9xL3.3mm,R33 R35 R54
+1,,FG18C0G1H100DNT06,Ceramic capacitor 10pF C0G 50V radial P=2.5mm,C7
+1,,FG18C0G1H150JNT06,Ceramic capacitor 15pF C0G 50V radial P=2.5mm,C11
+4,,FG18C0G1H101JNT06,Ceramic capacitor 100pF C0G 50V radial P=2.5mm,C9 C10 C19 C22
+1,C390169,PE153J2A0501,Film capacitor 15nF 100V 5% polyester P=5mm,C6
+7,C393117,PE223J2A0501,Film capacitor 22nF 100V 5% polyester P=5mm,C2 C13 C16 C20 C23 C24 C25
+10,C342794,FG28X7R1H104KNT06,Ceramic capacitor 100nF X7R 50V radial P=5mm,C26 + 9 supply bypass
+4,C393118,PE224J2A0501,Film capacitor 220nF 100V 5% polyester P=5mm,C1 C8 C12 C15
+2,C2803190,MPE474J100V82CL0051,Film capacitor 470nF 100V 5% polyester P=5mm (body thickness <= 3mm at C18),C18 C21
+4,,,Aluminium electrolytic 10uF 25V-50V D<=5.5mm P=2-2.5mm THT,C14 C14b C17 C17b
+4,,,Aluminium electrolytic 220uF 25V-35V D<=10mm P=5mm THT,C3 C4 C5 C28
+1,,,Aluminium electrolytic 1000uF 25V D<=16mm P=7.5mm THT,C27
+10,C84410,1N4148TR,Diode 1N4148 DO-35,D3-D12
+2,C713614,BC547C,NPN transistor BC547C TO-92 (C-B-E as silkscreen),TR2 TR9
+1,C20604,BD140,PNP transistor BD140 TO-126 (front face towards the B C E letters),TR3
+2,C22751485,2N2222A-338,NPN transistor 2N2222A TO-92 (board expects C-B-E: check pin order),TR6 TR8
+2,C118537,2N2907A,PNP transistor 2N2907A TO-92 (board expects C-B-E: check pin order),TR1 TR7
+2,C274643,J113,N-JFET J113 TO-92 substitute for obsolete J107 (gate to bottom pad),TR4 TR5
+1,C225716,CD4024BE,CD4024BE binary counter DIP-14,U100
+1,C5207,LF353P,LF353P dual JFET op amp DIP-8,U101
+2,C5209,LM393P,LM393P dual comparator DIP-8,U102 U106
+2,C5213,LM358P,LM358P dual op amp DIP-8,U103 U107
+2,C38969,TL081CP,TL081CP JFET op amp DIP-8 (replaces LM308),U104 U105
+1,C3793,L7808CV-DG,L7808CV 8V regulator TO-220,U108
+7,,,IC socket DIP-8 2.54mm pitch 7.62mm row spacing,U101-U107
+1,,,IC socket DIP-14 2.54mm pitch 7.62mm row spacing,U100
