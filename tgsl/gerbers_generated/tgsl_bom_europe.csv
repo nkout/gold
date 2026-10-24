@@ -1,0 +1,45 @@
+Quantity,Manufacturer,Manufacturer Part Number,Description,Designator,Notes
+2,ROYALOHM,MFF04FF3300A50,"Resistor metal film 330R 1% 0.4W axial, body D1.9x3.7mm",R52 R55,R55 carries up to ~35 mA
+5,ROYALOHM,MFF04FF1001A50,"Resistor metal film 1k 1% 0.4W axial, body D1.9x3.7mm",R7 R27 R37 R38 R56,Any 0204 metal film 1% fits (body <= D2.0 x 3.7 mm)
+4,ROYALOHM,MFF04FF2201A50,"Resistor metal film 2k2 1% 0.4W axial, body D1.9x3.7mm",R1 R11 R12 R44,Any 0204 metal film 1% fits (body <= D2.0 x 3.7 mm)
+1,ROYALOHM,MFF04FF3301A50,"Resistor metal film 3k3 1% 0.4W axial, body D1.9x3.7mm",R19,Any 0204 metal film 1% fits (body <= D2.0 x 3.7 mm)
+6,ROYALOHM,MFF04FF4701A50,"Resistor metal film 4k7 1% 0.4W axial, body D1.9x3.7mm",R9 R10 R13 R14 R41 R53,Any 0204 metal film 1% fits (body <= D2.0 x 3.7 mm)
+1,ROYALOHM,MFF04FF1002A50,"Resistor metal film 10k 1% 0.4W axial, body D1.9x3.7mm",R20,Any 0204 metal film 1% fits (body <= D2.0 x 3.7 mm)
+1,ROYALOHM,MFF04FF1502A50,"Resistor metal film 15k 1% 0.4W axial, body D1.9x3.7mm",R24,Any 0204 metal film 1% fits (body <= D2.0 x 3.7 mm)
+2,ROYALOHM,MFF04FF2002A50,"Resistor metal film 20k 1% 0.4W axial, body D1.9x3.7mm",R25 R26,Any 0204 metal film 1% fits (body <= D2.0 x 3.7 mm)
+2,ROYALOHM,MFF04FF2402A50,"Resistor metal film 24k 1% 0.4W axial, body D1.9x3.7mm",R2 R21,Any 0204 metal film 1% fits (body <= D2.0 x 3.7 mm)
+1,ROYALOHM,MFF04FF2702A50,"Resistor metal film 27k 1% 0.4W axial, body D1.9x3.7mm",R45,Any 0204 metal film 1% fits (body <= D2.0 x 3.7 mm)
+4,ROYALOHM,MFF04FF4702A50,"Resistor metal film 47k 1% 0.4W axial, body D1.9x3.7mm",R3 R6 R32 R34,Any 0204 metal film 1% fits (body <= D2.0 x 3.7 mm)
+11,ROYALOHM,MFF04FF1003A50,"Resistor metal film 100k 1% 0.4W axial, body D1.9x3.7mm",R8 R17 R23 R28 R30 R40 R42 R49 R50 R51a R51b,R51 = two 100k in series on the board
+4,ROYALOHM,MFF04FF2203A50,"Resistor metal film 220k 1% 0.4W axial, body D1.9x3.7mm",R15 R16 R39 R48,"R48: silkscreen 220K, schematic 200k, both work"
+1,ROYALOHM,MFF04FF3303A50,"Resistor metal film 330k 1% 0.4W axial, body D1.9x3.7mm",R43,Any 0204 metal film 1% fits (body <= D2.0 x 3.7 mm)
+2,ROYALOHM,MFF04FF4703A50,"Resistor metal film 470k 1% 0.4W axial, body D1.9x3.7mm",R29 R31,Any 0204 metal film 1% fits (body <= D2.0 x 3.7 mm)
+3,ROYALOHM,MFF04FF1004A50,"Resistor metal film 1M 1% 0.4W axial, body D1.9x3.7mm",R33 R35 R54,Any 0204 metal film 1% fits (body <= D2.0 x 3.7 mm)
+1,TDK,FG18C0G1H100DNT06,Ceramic cap 10pF C0G 50V radial P=2.5mm,C7,No value on silkscreen: between LF353 and the 4K7 above it
+1,TDK,FG18C0G1H150JNT06,Ceramic cap 15pF C0G 50V radial P=2.5mm,C11,
+4,TDK,FG18C0G1H101JNT06,Ceramic cap 100pF C0G 50V radial P=2.5mm,C9 C10 C19 C22,C19/C22 can be left out with TL081
+10,TDK,FG28X7R1H104KNT06,Ceramic cap 100nF X7R 50V radial P=5mm,C26 + 9 supply bypass,
+1,WIMA,,Film cap polyester 15nF 100V 5% P=5mm (e.g. WIMA MKS2),C6,"Rx tuning: film, 5% preferred"
+7,WIMA,,Film cap polyester 22nF 100V P=5mm (e.g. WIMA MKS2),C2 C13 C16 C20 C23 C24 C25,C2 is Tx tuning: 5% preferred. C13/C16 have no value on silkscreen
+4,WIMA,MKS2D032201C00KSSD,"Film cap polyester 220nF 100V 10% P=5mm, 3.5x8.5x7.2mm",C1 C8 C12 C15,C1 is Tx tuning: a 5% (J) version is better
+2,WIMA,MKS2C034701C00KSSD,"Film cap polyester 470nF 63V 10% P=5mm, 3.5x8.5x7.2mm",C18 C21,C18 slot is ~3 mm thick: check fit next to R32
+4,,,"Electrolytic 10uF 25-50V, D<=5.5mm, P=2-2.5mm",C14 C14b C17 C17b,Back to back pairs: follow + marks
+4,,,"Electrolytic 220uF 25-35V, D<=10mm, P=5mm",C3 C4 C5 C28,
+1,,,"Electrolytic 1000uF 25V, D<=16mm, P=7.5mm (or D10-13 P=5 with bent leads)",C27,
+10,onsemi,1N4148TR,Diode 1N4148 DO-35,D3-D12,
+2,onsemi,BC547CTA,NPN BC547C TO-92,TR2 TR9,C-B-E: fits as on silkscreen
+2,,,NPN 2N2222A TO-92 (onsemi / Diotec),TR6 TR8,Board expects C-B-E: E-B-C parts go in turned 180 deg
+2,,,PNP 2N2907A TO-92 (onsemi / Diotec),TR1 TR7,Board expects C-B-E: E-B-C parts go in turned 180 deg
+1,STMicroelectronics,BD140,PNP BD140 TO-126 (SOT-32),TR3,Printed face towards the B C E letters
+2,onsemi,J113,N-JFET J113 TO-92 (substitute for obsolete J107),TR4 TR5,Gate to the bottom pad; untested substitute
+1,Texas Instruments,CD4024BE,CD4024 counter DIP-14,U100,
+1,Texas Instruments,LF353P,LF353 dual JFET op amp DIP-8,U101,
+2,Texas Instruments,LM393P,LM393 dual comparator DIP-8,U102 U106,
+2,Texas Instruments,LM358P,LM358 dual op amp DIP-8,U103 U107,
+2,Texas Instruments,TL081CP,TL081 JFET op amp DIP-8 (replaces LM308),U104 U105,
+1,STMicroelectronics,L7808CV,8V regulator TO-220,U108,IN-GND-OUT as on silkscreen
+7,,,IC socket DIP-8 7.62mm,U101-U107,
+1,,,IC socket DIP-14 7.62mm,U100,
+1,,,"Potentiometer 100k linear, panel mount",R18 (Disc. level),"Off-board, wired to 3 pads"
+1,,,"Trimmer/pot 100k, 1.3mm pins: ends 5.08mm apart, wiper 5.08mm off-line",R22 (Ground balance),Check pin drawing
+1,,,"Trimmer 10k, same footprint as R22",R36 (Sens.),Check pin drawing
